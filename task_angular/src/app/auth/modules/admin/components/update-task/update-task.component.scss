@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+    h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    form {
+      width: 100%;
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .form-field {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+  
+      button {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .container {
+      padding: 10px;
+    }
+  
+    form {
+      .form-field {
+        margin-bottom: 15px;
+      }
+  
+      button {
+        margin-top: 15px;
+      }
+    }
+  }
+  
